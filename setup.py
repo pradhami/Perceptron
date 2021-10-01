@@ -8,7 +8,7 @@ USER_NAME = "Amit Kumar Pradhan"
 USER_EMAIL = "amitpradhands@gmail.com"
 
 setuptools.setup(
-    name=PROJECT_NAME,
+    name=f"{PROJECT_NAME}-{USER_NAME}",
     version="0.0.1",
     author=USER_NAME,
     author_email=USER_EMAIL,
